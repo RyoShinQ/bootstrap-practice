@@ -3,9 +3,11 @@
    <head>
       <title>Website Name</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- 引入 Bootstrap -->
-      <link href="css/bootstrap.css" rel="stylesheet">
-
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <script type="text/javascript" src="scripts/jquery-3.7.1.min.js"></script>
+      <script type="text/javascript" src="scripts/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="scripts/main-query.js"></script>
+      
    </head>
    <body>
       <div class="container-lg" id="main-container">
@@ -13,32 +15,266 @@
             <div class="container">
                <h1 class="display-4">Title</h1>
                <p class="lead">
-                  Fill in introduction here.
-                  Fill in introduction here.
-                  Fill in introduction here.
-                  Fill in introduction here.
-                  Fill in introduction here.
-   
+                  The indtroduction can be filled here. 
                </p>
                <hr class="my-4">
                <p>
-                  It uses utility classes for typography and spacing to space content out within the larger container.
-                  It uses utility classes for typography and spacing to space content out within the larger container.
-                  It uses utility classes for typography and spacing to space content out within the larger container.
-                  It uses utility classes for typography and spacing to space content out within the larger container.
-                  It uses utility classes for typography and spacing to space content out within the larger container.
-                  It uses utility classes for typography and spacing to space content out within the larger container.
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
+                  It uses utility classes for typography and spacing to space content out within the larger container.<br>
                   <ul>
                      <li>item 1</li>
                      <li>item 2</li>
                   </ul>
                </p>
-               <p class="lead">
-                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-               </p>
             </div>
          </div>
          
+         <div class="container-lg">
+            <div class="row justify-content-center align-items-center g-2">
+               <div class="col align-items-center">
+                  <div class="container">
+                     <div class="dropdown" id="d1">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" id="d1_op1">Option 1</a></li>
+                          <li><a class="dropdown-item" id="d1_op2">Option 2</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <br>
+                  <div class="card w-120" style="width: 18rem;" id="d1_card">
+                     <img src="imgs/img1_1.png" class="card-img-top" alt="example picture1.1" id="d1_card_img">
+                     <div class="card-body">
+                       <h5 class="card-title" id="d1_card_title">Card title</h5>
+                       <p class="card-text" id="d1_card_context">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <a class="btn btn-primary" id="d1_card_detail" data-bs-toggle="modal" data-bs-target="#d1_op1_detail_modal">Go somewhere</a>
+                     </div>
+                   </div>
+               </div>
+               <div class="col align-items-center">
+                  column
+               </div>
+               <div class="col align-items-center">
+                  column
+               </div>
+            </div>
+         </div>
+
+         <div class="modal fade" id="d1_op1_detail_modal" tabindex="-1" aria-labelledby="d1_op1_title" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+               <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="d1_op1_title">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                     <p>
+                        Option 1
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        <ul>
+                           <li>item 1</li>
+                           <li>item 2</li>
+                        </ul>
+                     </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+            </div>
+         </div>
+
+         <div class="modal fade" id="d1_op2_detail_modal" tabindex="-1" aria-labelledby="d1_op2_title" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+               <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="d1_op2_title">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                     <p>
+                        Option 2
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        This is a long long long long long context.
+                        <br>
+                        <ul>
+                           <li>item 1</li>
+                           <li>item 2</li>
+                        </ul>
+                     </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+            </div>
+         </div>
+
       </div> 
    </body>
 </html>
