@@ -46,15 +46,12 @@
             <div class="row justify-content-center align-items-center g-2">
                <div class="col align-items-center">
                   <div class="container">
-                     <div class="dropdown" id="d1">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown button
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" id="d1_op1">Option 1</a></li>
-                          <li><a class="dropdown-item" id="d1_op2">Option 2</a></li>
-                        </ul>
-                     </div>
+                     <label for="d1">Choose an option:</label>
+                     <select name="select1" id="d1">
+                        <option selected="selected" hidden="hidden" value="">None</option>
+                        <option value="1" id="d1_op1">Option1</option>
+                        <option value="2" id="d1_op2">Option2</option>
+                     </select>
                   </div>
                   <br>
                   <div class="card w-120" style="width: 18rem;" id="d1_card">
@@ -66,6 +63,7 @@
                      </div>
                    </div>
                </div>
+
                <div class="col align-items-center">
                   column
                </div>
@@ -73,7 +71,14 @@
                   column
                </div>
             </div>
+
+            <br>
+
+            <div class="row justify-content-center align-items-center g-2">
+               <button class="btn btn-secondary" type="button" id="confirm">Calculate</button>
+            </div>
          </div>
+
 
          <div class="modal fade" id="d1_op1_detail_modal" tabindex="-1" aria-labelledby="d1_op1_title" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
@@ -176,105 +181,6 @@
             </div>
          </div>
 
-         <div class="modal fade" id="d1_op2_detail_modal" tabindex="-1" aria-labelledby="d1_op2_title" aria-hidden="true">
-            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-               <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="d1_op2_title">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                     <p>
-                        Option 2
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        This is a long long long long long context.
-                        <br>
-                        <ul>
-                           <li>item 1</li>
-                           <li>item 2</li>
-                        </ul>
-                     </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-                </div>
-            </div>
-         </div>
 
       </div> 
    </body>
