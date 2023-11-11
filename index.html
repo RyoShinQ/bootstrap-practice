@@ -43,8 +43,8 @@
          </div>
          
          <div class="container-lg">
-            <div class="row justify-content-center align-items-center g-2">
-               <div class="col align-items-center">
+            <div class="row justify-content-center align-items-start g-2">
+               <div class="col-md-4 align-items-center">
                   <div class="container">
                      <label for="d1">Choose an option:</label>
                      <select name="select1" id="d1">
@@ -54,37 +54,72 @@
                      </select>
                   </div>
                   <br>
-                  <div class="card w-120" style="width: 18rem;" id="d1_card">
+                  <div class="card w-150" id="d1_card">
                      <img src="imgs/img1_1.png" class="card-img-top" alt="example picture1.1" id="d1_card_img">
                      <div class="card-body">
                        <h5 class="card-title" id="d1_card_title">Card title</h5>
                        <p class="card-text" id="d1_card_context">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       <a class="btn btn-primary" id="d1_card_detail" data-bs-toggle="modal" data-bs-target="#d1_op1_detail_modal">Go somewhere</a>
+                       <a class="btn btn-primary" id="d1_card_detail" data-bs-toggle="modal" data-bs-target="#d1_detail_modal" hidden="hidden">Go somewhere</a>
                      </div>
                    </div>
                </div>
 
-               <div class="col align-items-center">
-                  column
+               <div class="col-md-4 align-items-center">
+                  <div class="container">
+                     <label for="d2">Choose an option:</label>
+                     <select name="select1" id="d2">
+                        <option selected="selected" hidden="hidden" value="">None</option>
+                        <option value="1" id="d2_op1">Option1</option>
+                        <option value="2" id="d2_op2">Option2</option>
+                     </select>
+                  </div>
+                  <br>
+                  <div class="card w-150" id="d2_card">
+                     <img src="imgs/img1_1.png" class="card-img-top" alt="example picture1.1" id="d2_card_img">
+                     <div class="card-body">
+                       <h5 class="card-title" id="d2_card_title">Card title</h5>
+                       <p class="card-text" id="d2_card_context">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <a class="btn btn-primary" id="d2_card_detail" data-bs-toggle="modal" data-bs-target="#d2_detail_modal" hidden="hidden">Go somewhere</a>
+                     </div>
+                   </div>
                </div>
-               <div class="col align-items-center">
-                  column
+
+               <div class="col-md-4 align-items-center">
+                  <div class="container">
+                     <label for="d3">Choose an option:</label>
+                     <select name="select1" id="d3">
+                        <option selected="selected" hidden="hidden" value="">None</option>
+                        <option value="1" id="d3_op1">Option1</option>
+                        <option value="2" id="d3_op2">Option2</option>
+                     </select>
+                  </div>
+                  <br>
+                  <div class="card w-150" id="d3_card">
+                     <img src="imgs/img1_1.png" class="card-img-top" alt="example picture1.1" id="d3_card_img">
+                     <div class="card-body">
+                       <h5 class="card-title" id="d3_card_title">Card title</h5>
+                       <p class="card-text" id="d3_card_context">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <a class="btn btn-primary" id="d3_card_detail" data-bs-toggle="modal" data-bs-target="#d3_detail_modal" hidden="hidden">Go somewhere</a>
+                     </div>
+                   </div>
                </div>
             </div>
 
             <br>
 
-            <div class="row justify-content-center align-items-center g-2">
-               <button class="btn btn-secondary" type="button" id="confirm">Calculate</button>
+            <div class="row justify-content-end g-2">
+               <div class="col-1 align-items-center">
+                  <button class="btn btn-secondary btn-lg" type="button" id="confirm">Calculate</button>
+               </div>
             </div>
          </div>
 
 
-         <div class="modal fade" id="d1_op1_detail_modal" tabindex="-1" aria-labelledby="d1_op1_title" aria-hidden="true">
+         <div class="modal fade" id="d1_detail_modal" tabindex="-1" aria-labelledby="d1_title" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
                <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="d1_op1_title">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="d1_title">Modal title</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
